@@ -183,35 +183,7 @@ header {
     margin: 0;
     padding: 0;
   }
-  .cd-images-visa {
-    width: 343px;
-    height: 89px;
-    display: table;
-    left: 874px;
-    right: 31px;
-    top: 0px;
-  }
-  .cd-images-card {
-    position: absolute;
-    width: 313.33px;
-    height: 202.69px;
-    left: 643.25px;
-    top: 100.84px;
-  }
-  .cd-images-payment-to {
-    position: absolute;
-    width: 194.58px;
-    height: 235.41px;
-    left: 740px;
-    top: 372.1px;
-  }
-  .cd-images-bg-card {
-    position: absolute;
-    width: 547px;
-    height: 334px;
-    left: 701px;
-    top: 168px;
-  }
+  
   .cd-title-btn h1 {
     width: 489px;
     height: 177px;
