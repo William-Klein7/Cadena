@@ -1,4 +1,4 @@
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1441px) {
   .cd-section-3 {
     width: 1440px;
     height: 862px;
@@ -75,5 +75,8 @@
     line-height: 30px;
     align-items: center;
     color: #b8b8b8;
+  }
+  .cd-container-section-3-mobile{
+    display: none;
   }
 }

@@ -1,4 +1,4 @@
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1441px) {
   /* PRIMEIRO FOOTER: */
 
   .cd-footer-1 {
@@ -55,7 +55,7 @@
     width: 1280px;
     height: 32px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     padding: 0px 32px;
     gap: 32px;
@@ -85,5 +85,8 @@
     line-height: 24px;
     text-align: right;
     color: #b8b8b8;
+  }
+  .cd-line-divisor-mobile{
+    display: none;
   }
   }
