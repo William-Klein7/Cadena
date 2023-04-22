@@ -1,0 +1,80 @@
+@media screen and (min-width: 1440px) {
+  .cd-section-3 {
+    width: 1440px;
+    height: 862px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 80px;
+    gap: 64px;
+  }
+  .cd-container-section-3 {
+    width: 1280px;
+    height: 670px;
+    display: block;
+    background: #1b1c20 url("../imagens/cartões-section-3.png") center center
+      no-repeat;
+    border-radius: 25px;
+  }
+  .cd-box-btn-text {
+    width: 478px;
+    height: 438px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 122px;
+    margin: 128px 770px 124px 31px;
+  }
+  .cd-btn-section-3 {
+    width: 163px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 26px 16px 28px;
+    gap: 23px;
+    background: #ffffff;
+    border-radius: 405px;
+    border: none;
+    color: #1b1c20;
+
+  }
+  .cd-box-btn-text a{
+    font-family: 'Satoshi';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .cd-box-text-3 {
+    width: 478px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+  }
+  .cd-box-text-3 h1 {
+    width: 432px;
+    height: 116px;
+    font-family: 'Satoshi';
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 58px;
+    align-items: center;
+  }
+  .cd-box-text-3 p {
+    width: 478px;
+    height: 120px;
+    font-family: 'Satoshi';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    align-items: center;
+    color: #b8b8b8;
+    text-align: justify;
+  }
+}
