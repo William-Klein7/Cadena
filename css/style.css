@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --bg-body: #060809;
   --bg-button: #ffffff;
@@ -48,16 +49,6 @@
   --color-p-section-3: #b8b8b8;
   --color-btn: #1b1c20;
   --color-btn-new: #f9f5ff;
-
-  --box-shadow:
-    0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01),
-    0px 99.3206px 174.804px rgba(68, 55, 0, 0.02),
-    0px 45.6875px 80.4497px rgba(68, 55, 0, 0.01),
-    0px 25.8233px 45.6875px rgba(68, 55, 0, 0.01),
-    0px 15.8913px 27.8098px rgba(68, 55, 0, 0.01),
-    0px 8.93885px 16.8845px rgba(68, 55, 0, 0.01),
-    0px 5.95923px 8.93885px rgba(68, 55, 0, 0.01),
-    0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01);
 }
 
 .light-mode:root{
@@ -76,6 +67,7 @@
   --color-btn: #ffffff;
   --color-btn-new: #6941c6;
 }
+
 body,
 header {
   background-color: var(--bg-body);
@@ -106,8 +98,7 @@ span {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 188px;
-  }
+    }
   .cd-btn-togle-mode{
     width: auto;
     height: auto;
@@ -116,20 +107,21 @@ span {
     gap: 12px;
   }
   .cd-togle-dark-mode, .cd-togle-light-mode{
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     border:none;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: #e7e7e7;
+    background-color: #f9f5ff;
     box-shadow: var(--box-shadow);
     cursor: pointer;
+    order: 2;
   }
   .cd-lua, .cd-sol{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     display: block;
   }
   .cd-logo {
@@ -142,6 +134,7 @@ span {
   .cd-menu {
     width: 23px;
     height: 26px;
+    order: 3;
   }
   .cd-menu a {
     display: none;
@@ -530,6 +523,9 @@ span {
     border-radius: 405px;
     border: none;
     color: var(--color-btn);
+  }
+  .cd-arrow-fill-section-3{
+    fill: var(--bg-box);
   }
   .cd-box-btn-text a {
     font-family: "Satoshi";
