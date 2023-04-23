@@ -7,17 +7,22 @@
   --bg-body: #060809;
   --bg-button: #ffffff;
   --bg-box: #1b1c20;
+  --bg-section-1:#060809;
   --bg-btn-new: #7f56d9;
   --bg-btn-secundary: #ffffff;
+  --bg-btn-section-1: #f9f5ff;
+  --logo-fill:white;
 
   --color-purple: #712fff;
   --color-title: #ffffff;
   --color-p: #e7e7e7;
+  --color-p-section-2: #e7e7e7;
   --color-p-section-3: #b8b8b8;
   --color-btn: #1b1c20;
   --color-btn-new: #f9f5ff;
 
-  --box-shadow: 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01),
+  --box-shadow:
+    0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01),
     0px 99.3206px 174.804px rgba(68, 55, 0, 0.02),
     0px 45.6875px 80.4497px rgba(68, 55, 0, 0.01),
     0px 25.8233px 45.6875px rgba(68, 55, 0, 0.01),
@@ -25,6 +30,51 @@
     0px 8.93885px 16.8845px rgba(68, 55, 0, 0.01),
     0px 5.95923px 8.93885px rgba(68, 55, 0, 0.01),
     0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01);
+}
+.dark-mode:root {
+  --bg-body: #060809;
+  --bg-button: #ffffff;
+  --bg-box: #1b1c20;
+  --bg-section-1:#060809;
+  --bg-btn-new: #7f56d9;
+  --bg-btn-secundary: #ffffff;
+  --bg-btn-section-1: #f9f5ff;
+  --logo-fill:white;
+
+  --color-purple: #712fff;
+  --color-title: #ffffff;
+  --color-p: #e7e7e7;
+  --color-p-section-2: #e7e7e7;
+  --color-p-section-3: #b8b8b8;
+  --color-btn: #1b1c20;
+  --color-btn-new: #f9f5ff;
+
+  --box-shadow:
+    0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01),
+    0px 99.3206px 174.804px rgba(68, 55, 0, 0.02),
+    0px 45.6875px 80.4497px rgba(68, 55, 0, 0.01),
+    0px 25.8233px 45.6875px rgba(68, 55, 0, 0.01),
+    0px 15.8913px 27.8098px rgba(68, 55, 0, 0.01),
+    0px 8.93885px 16.8845px rgba(68, 55, 0, 0.01),
+    0px 5.95923px 8.93885px rgba(68, 55, 0, 0.01),
+    0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01);
+}
+
+.light-mode:root{
+  --bg-body: #ffffff;
+  --bg-button: #0F0F14;
+  --bg-box: #ffffff;
+  --bg-section-1:#faf8f5;
+  --bg-btn-new: #ffffff;
+  --bg-btn-secundary: #0f0f14;  
+  --logo-fill:black;
+
+  --color-title: #1b1c20;
+  --color-p: #383a47;
+  --color-p-section-2: #797b89;
+  --color-p-section-3: #797b89;
+  --color-btn: #ffffff;
+  --color-btn-new: #6941c6;
 }
 body,
 header {
@@ -34,6 +84,7 @@ span {
   color: var(--color-purple);
 }
 
+
 @media screen and (min-width: 375px) {
   /* HEADER */
 
@@ -41,6 +92,7 @@ span {
     width: 375px;
     height: 58px;
     position: fixed;
+    background-color: var(--bg-section-1);
   }
   .cd-container-header {
     width: 335px;
@@ -48,7 +100,7 @@ span {
     margin: 14px 20px 0;
   }
   .cd-box-header {
-    width: 335px;
+    width: auto;
     height: 30px;
     display: flex;
     flex-direction: row;
@@ -56,13 +108,36 @@ span {
     align-items: center;
     gap: 188px;
   }
+  .cd-btn-togle-mode{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .cd-togle-dark-mode, .cd-togle-light-mode{
+    width: 50px;
+    height: 50px;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #e7e7e7;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+  }
+  .cd-lua, .cd-sol{
+    width: 30px;
+    height: 30px;
+    display: block;
+  }
   .cd-logo {
     width: 125px;
     height: 30px;
   }
-  .cd-logo img {
-    width: 125px;
-    height: 30px;
+  .cd-logo-fill{
+    fill: var(--logo-fill);
   }
   .cd-menu {
     width: 23px;
@@ -83,6 +158,7 @@ span {
     flex-direction: column;
     align-items: center;
     padding: 108px 20px 0;
+    background-color: var(--bg-section-1);
   }
   .cd-container-section-1 {
     width: 335px;
@@ -119,7 +195,7 @@ span {
     align-items: center;
     padding: 4px 10px 4px 4px;
     gap: 12px;
-    background: var(--bg-button);
+    background: #f9f5ff;
     border-radius: 16px;
     cursor: pointer;
     border: none;
@@ -148,6 +224,9 @@ span {
     mix-blend-mode: normal;
     border-radius: 16px;
     border: none;
+  }
+  .cd-btn-new a{
+    background-color: var(--bg-btn-section-1);
   }
 
   .cd-box-images {
@@ -200,7 +279,8 @@ span {
     border-radius: 10px;
     box-sizing: border-box;
     cursor: pointer;
-    background-color: var(--bg-button);
+    background-color: #ffffff;
+    border: 0.5px solid #1B1C20;
   }
   .cd-btns-store-aple img {
     width: 117px;
@@ -303,7 +383,7 @@ span {
     line-height: 27px;
     align-items: center;
     text-align: center;
-    color: var(--color-p);
+    color: var(--color-p-section-2);
   }
   .cd-box-small-2 {
     width: 335px;
@@ -335,7 +415,7 @@ span {
     line-height: 27px;
     align-items: center;
     text-align: center;
-    color: var(--color-p);
+    color: var(--color-p-section-2);
   }
   .cd-box-small {
     width: 335px;
@@ -365,7 +445,7 @@ span {
     line-height: 27px;
     align-items: center;
     text-align: center;
-    color: var(--color-p);
+    color: var(--color-p-section-2);
   }
   .cd-box-large {
     width: 335px;
@@ -376,6 +456,7 @@ span {
     padding: 39px 65px;
     gap: 85px;
     background: var(--bg-box);
+    box-shadow: var(--box-shadow);
     border-radius: 23px;
   }
   .cd-box-large-text {
@@ -403,7 +484,7 @@ span {
     line-height: 27px;
     align-items: center;
     text-align: center;
-    color: var(--color-p);
+    color: var(--color-p-section-2);
   }
 
   /* SECTION 03 */
@@ -426,6 +507,7 @@ span {
     gap: 65px;
     background-color: var(--bg-box);
     border-radius: 25px;
+    box-shadow:var(--box-shadow);
   }
   .cd-box-btn-text {
     width: 295px;
@@ -494,6 +576,8 @@ span {
     justify-content: center;
     align-items: center;
     padding: 70px 20px 83px;
+    background-color: var(--bg-section-1);
+
   }
   .cd-footer-container {
     width: 335px;
@@ -625,12 +709,16 @@ span {
   }
 
   .cd-box-header {
-    width: 378px;
-    height: 32px;
+    width: 530px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 40px;
+  }
+  .cd-logo {
+    width: 133px;
+    height: 32px;
   }
   .cd-menu {
     width: 205px;
@@ -650,7 +738,7 @@ span {
     text-decoration: none;
     color: var(--color-title);
   }
-  .cd-menu img {
+  .cd-menu svg {
     display: none;
   }
   .cd-menu-login {
@@ -660,6 +748,7 @@ span {
     flex-direction: row;
     align-items: center;
     gap: 12px;
+    margin: 0;
   }
   .cd-btn-primary {
     width: 82px;
@@ -670,7 +759,7 @@ span {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    background-color: var(--bg-body);
+    background-color: var(--bg-section-1);
     color: var(--color-title);
   }
   .cd-btn-secundary {
@@ -737,7 +826,7 @@ span {
     align-items: center;
     padding: 4px 10px 4px 4px;
     gap: 12px;
-    background: var(--bg-button);
+    background: #f9f5ff;
     border-radius: 16px;
     cursor: pointer;
     border: none;
@@ -767,7 +856,7 @@ span {
     border-radius: 16px;
     border: none;
   }
-
+  
   .cd-box-images {
     width: 604.75px;
     height: 607.5px;
@@ -917,7 +1006,7 @@ span {
     line-height: 27px;
     align-items: center;
     text-align: center;
-    color: var(--color-p);
+    color: var(--color-p-section-2);
   }
   .cd-box-small-2 {
     width: 406px;
@@ -948,7 +1037,7 @@ span {
     line-height: 27px;
     align-items: center;
     text-align: center;
-    color: var(--color-p);
+    color: var(--color-p-section-2);
   }
   .cd-box-small {
     width: 408px;
@@ -977,7 +1066,7 @@ span {
     line-height: 27px;
     align-items: center;
     text-align: center;
-    color: var(--color-p);
+    color: var(--color-p-section-2);
   }
   .cd-box-large {
     width: 408px;
@@ -1015,7 +1104,7 @@ span {
     line-height: 27px;
     align-items: center;
     text-align: center;
-    color: var(--color-p);
+    color: var(--color-p-section-2);
   }
 
   /* SECTION 03 */
