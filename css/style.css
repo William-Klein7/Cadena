@@ -3,23 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root{
-  --bg-body:#060809;
-  --bg-button:#ffffff;
+:root {
+  --bg-body: #060809;
+  --bg-button: #ffffff;
   --bg-box: #1b1c20;
-  --bg-btn-new:#7f56d9;
-  
-  --color-purple:#712fff;
-  --color-title:#ffffff;
-  --color-p:#e7e7e7;
-  --color-p-section-3:#b8b8b8;
+  --bg-btn-new: #7f56d9;
+  --bg-btn-secundary: #ffffff;
+
+  --color-purple: #712fff;
+  --color-title: #ffffff;
+  --color-p: #e7e7e7;
+  --color-p-section-3: #b8b8b8;
   --color-btn: #1b1c20;
-  --color-btn-new:#f9f5ff;
+  --color-btn-new: #f9f5ff;
+
+  --box-shadow: 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01),
+    0px 99.3206px 174.804px rgba(68, 55, 0, 0.02),
+    0px 45.6875px 80.4497px rgba(68, 55, 0, 0.01),
+    0px 25.8233px 45.6875px rgba(68, 55, 0, 0.01),
+    0px 15.8913px 27.8098px rgba(68, 55, 0, 0.01),
+    0px 8.93885px 16.8845px rgba(68, 55, 0, 0.01),
+    0px 5.95923px 8.93885px rgba(68, 55, 0, 0.01),
+    0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01);
 }
-body, header  {
+body,
+header {
   background-color: var(--bg-body);
 }
-span{
+span {
   color: var(--color-purple);
 }
 
@@ -271,6 +282,7 @@ span{
     padding: 39px 65px 20px;
     gap: 31px;
     background: var(--bg-box);
+    box-shadow: var(--box-shadow);
     border-radius: 24px;
   }
   .cd-box-small-1 h1 {
@@ -302,6 +314,7 @@ span{
     padding: 39px 53px;
     gap: 27px;
     background: var(--bg-box);
+    box-shadow: var(--box-shadow);
     border-radius: 23px;
   }
   .cd-box-small-2 h1 {
@@ -333,6 +346,7 @@ span{
     padding: 39px 87px;
     gap: 19px;
     background: var(--bg-box);
+    box-shadow: var(--box-shadow);
     border-radius: 23px;
   }
   .cd-box-small h1 {
@@ -390,13 +404,12 @@ span{
     align-items: center;
     text-align: center;
     color: var(--color-p);
-
   }
 
   /* SECTION 03 */
 
   .cd-section-3 {
-    width: 100%;
+    width: 375px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -593,7 +606,6 @@ span{
   }
 }
 @media screen and (min-width: 1440px) {
-
   /* HEADER */
 
   .cd-header {
@@ -731,7 +743,7 @@ span{
     border: none;
   }
   .cd-btn-section-1 a {
-    font-family: 'Satoshi';
+    font-family: "Satoshi";
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -755,7 +767,7 @@ span{
     border-radius: 16px;
     border: none;
   }
-  
+
   .cd-box-images {
     width: 604.75px;
     height: 607.5px;
@@ -763,11 +775,11 @@ span{
     margin: 0;
     padding: 0;
   }
-  
+
   .cd-title-btn h1 {
     width: 489px;
     height: 177px;
-    font-family: 'Satoshi';
+    font-family: "Satoshi";
     font-weight: 700;
     font-size: 44px;
     line-height: 59px;
@@ -785,7 +797,7 @@ span{
     height: 309px;
   }
   .cd-title-description p {
-    font-family: 'Satoshi';
+    font-family: "Satoshi";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -839,12 +851,11 @@ span{
     gap: 32px;
   }
   .cd-box-text-2 h1 {
-    
-    font-family:'Satoshi';
+    font-family: "Satoshi";
     font-weight: 500;
     font-size: 43px;
     line-height: 58px;
-    color:var(--color-title);
+    color: var(--color-title);
   }
   .cd-box-cards {
     width: 1280px;
@@ -889,24 +900,24 @@ span{
     border-radius: 24px;
   }
   .cd-box-small-1 h1 {
-    font-family:'Satoshi';
+    font-family: "Satoshi";
     font-weight: 400;
     font-size: 23px;
     line-height: 32px;
     align-items: center;
-    text-align: center;  
-    color:var(--color-title);
+    text-align: center;
+    color: var(--color-title);
   }
   .cd-box-small-1 p {
     width: 276px;
     height: 81px;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-weight: 400;
     font-size: 15px;
-    line-height: 27px;  
+    line-height: 27px;
     align-items: center;
     text-align: center;
-    color:var(--color-p) ;
+    color: var(--color-p);
   }
   .cd-box-small-2 {
     width: 406px;
@@ -920,25 +931,24 @@ span{
     border-radius: 23px;
   }
   .cd-box-small-2 h1 {
-    font-family:'Satoshi';
+    font-family: "Satoshi";
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
     align-items: center;
     text-align: center;
-    color:var(--color-title);
+    color: var(--color-title);
   }
   .cd-box-small-2 p {
-  
     width: 299px;
     height: 81px;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-weight: 400;
     font-size: 17px;
     line-height: 27px;
     align-items: center;
-    text-align: center;  
-    color:var(--color-p) ;
+    text-align: center;
+    color: var(--color-p);
   }
   .cd-box-small {
     width: 408px;
@@ -952,24 +962,22 @@ span{
     border-radius: 23px;
   }
   .cd-box-small h1 {
-  
-    font-family:'Satoshi';
+    font-family: "Satoshi";
     font-weight: 400;
     font-size: 23px;
     line-height: 32px;
     align-items: center;
-    text-align: center;  
-    color:var(--color-title);
+    text-align: center;
+    color: var(--color-title);
   }
   .cd-box-small p {
-  
-    font-family: 'Inter';
+    font-family: "Inter";
     font-weight: 400;
     font-size: 15px;
     line-height: 27px;
     align-items: center;
-    text-align: center;  
-    color:var(--color-p) ;
+    text-align: center;
+    color: var(--color-p);
   }
   .cd-box-large {
     width: 408px;
@@ -992,24 +1000,22 @@ span{
     gap: 21px;
   }
   .cd-box-large-text h1 {
-    
-    font-family: 'Satoshi';
+    font-family: "Satoshi";
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
     align-items: center;
     text-align: center;
-    color:var(--color-title);
+    color: var(--color-title);
   }
   .cd-box-large-text p {
-  
-    font-family: 'Inter';
+    font-family: "Inter";
     font-weight: 400;
     font-size: 15px;
     line-height: 27px;
     align-items: center;
-    text-align: center;  
-    color:var(--color-p);
+    text-align: center;
+    color: var(--color-p);
   }
 
   /* SECTION 03 */
@@ -1027,8 +1033,8 @@ span{
     width: 1280px;
     height: 670px;
     display: block;
-    background: var(--bg-box) url("../imagens/cartões-section-3.png") center center
-      no-repeat;
+    background: var(--bg-box) url("../imagens/cartões-section-3.png") center
+      center no-repeat;
     border-radius: 25px;
   }
   .cd-box-btn-text {
@@ -1053,10 +1059,9 @@ span{
     border-radius: 405px;
     border: none;
     color: var(--color-btn);
-
   }
-  .cd-box-btn-text a{
-    font-family: 'Satoshi';
+  .cd-box-btn-text a {
+    font-family: "Satoshi";
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -1075,7 +1080,7 @@ span{
   .cd-box-text-3 h1 {
     width: 432px;
     height: 116px;
-    font-family: 'Satoshi';
+    font-family: "Satoshi";
     font-weight: 700;
     font-size: 43px;
     line-height: 58px;
@@ -1085,14 +1090,14 @@ span{
   .cd-box-text-3 p {
     width: 478px;
     height: 120px;
-    font-family: 'Satoshi';
+    font-family: "Satoshi";
     font-weight: 400;
     font-size: 19px;
     line-height: 30px;
     align-items: center;
     color: var(--color-p-section-3);
   }
-  .cd-container-section-3-mobile{
+  .cd-container-section-3-mobile {
     display: none;
   }
 
@@ -1121,7 +1126,7 @@ span{
   .cd-footer-container p {
     width: 270px;
     height: 28px;
-    font-family: 'Satoshi';
+    font-family: "Satoshi";
     font-weight: 500;
     font-size: 15px;
     line-height: 27px;
@@ -1138,9 +1143,28 @@ span{
     padding: 0px;
     gap: 142px;
   }
-  
+  .cd-footer-ads-stripe {
+    width: 74px;
+    height: 31px;
+  }
+  .cd-footer-ads-orfium {
+    width: 131px;
+    height: 25px;
+  }
+  .cd-footer-ads-kinsta {
+    width: 88px;
+    height: 17px;
+  }
+  .cd-footer-ads-bankable {
+    width: 133px;
+    height: 29px;
+  }
+  .cd-footer-ads-nowports {
+    width: 149px;
+    height: 25px;
+  }
 
-/* SEGUNDO FOOTER: */
+  /* SEGUNDO FOOTER: */
 
   .cd-footer-2 {
     width: 1440px;
@@ -1168,25 +1192,32 @@ span{
     justify-content: space-between;
     align-items: center;
     padding: 0px;
+    order: 0;
+  }
+  .cd-logo-footer-2 {
+    margin-bottom: 0;
   }
   .cd-footer-social-icons {
     width: 320px;
     height: 24px;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     gap: 24px;
+    order: 0;
   }
   .cd-box-footer-2 p {
-    font-family: 'Satoshi';
+    font-family: "Satoshi";
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: right;
     color: var(--color-p-section-3);
+    order: 0;
   }
-  .cd-line-divisor-mobile{
+  .cd-line-divisor-mobile {
     display: none;
   }
 }
