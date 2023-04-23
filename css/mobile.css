@@ -83,7 +83,7 @@
     align-items: center;
     padding: 4px 10px 4px 4px;
     gap: 12px;
-    background: #f9f5ff;
+    background: var(--bg-button);
     border-radius: 16px;
     cursor: pointer;
     border: none;
@@ -107,8 +107,8 @@
     flex-direction: row;
     align-items: center;
     padding: 2px 10px;
-    background: #7f56d9;
-    color: #f9f5ff;
+    background: var(--bg-btn-new);
+    color: var(--color-btn-new);
     mix-blend-mode: normal;
     border-radius: 16px;
     border: none;
@@ -129,6 +129,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 43px;
+    color: var(--color-title);
   }
   .cd-title-description {
     width: 335px;
@@ -146,7 +147,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    color: #e7e7e7;
+    color: var(--color-p);
   }
   .cd-btns-store {
     width: 304px;
@@ -242,7 +243,7 @@
     align-items: center;
     padding: 39px 65px 20px;
     gap: 31px;
-    background: #1b1c20;
+    background: var(--bg-box);
     border-radius: 24px;
   }
   .cd-box-small-1 h1 {
@@ -271,7 +272,7 @@
     align-items: center;
     padding: 39px 53px;
     gap: 27px;
-    background: #1b1c20;
+    background: var(--bg-box);
     border-radius: 23px;
   }
   .cd-box-small-2 h1 {
@@ -300,7 +301,7 @@
     align-items: center;
     padding: 39px 87px;
     gap: 19px;
-    background: #1b1c20;
+    background: var(--bg-box);
     border-radius: 23px;
   }
   .cd-box-small h1 {
@@ -327,7 +328,7 @@
     align-items: center;
     padding: 39px 65px;
     gap: 85px;
-    background: #1b1c20;
+    background: var(--bg-box);
     border-radius: 23px;
   }
   .cd-box-large-text {
@@ -374,7 +375,7 @@
     align-items: center;
     padding: 0;
     gap: 65px;
-    background-color: #1b1c20;
+    background-color: var(--bg-box);
     border-radius: 25px;
   }
   .cd-box-btn-text {
@@ -394,10 +395,10 @@
     align-items: center;
     padding: 15px 26px 16px 28px;
     gap: 20px;
-    background: #ffffff;
+    background: var(--bg-button);
     border-radius: 405px;
     border: none;
-    color: #1b1c20;
+    color: var(--color-btn);
   }
   .cd-box-btn-text a {
     font-family: "Satoshi";
@@ -422,6 +423,7 @@
     font-size: 24px;
     line-height: 32px;
     align-items: center;
+    color: var(--color-title);
   }
   .cd-box-text-3 p {
     width: 295px;
@@ -431,7 +433,7 @@
     font-size: 16px;
     line-height: 30px;
     align-items: center;
-    color: #b8b8b8;
+    color: var(--color-p-section-3);
   }
   /* FOOTERS */
   /* PRIMEIRO FOOTER: */
@@ -539,7 +541,7 @@
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #ffffff;
+    color: var(--color-title);
     order: 3;
   }
   .cd-logo-footer-2 {

@@ -27,6 +27,7 @@
     font-size: 15px;
     line-height: 27px;
     align-items: center;
+    color: var(--color-p-section-3);
   }
   .cd-footer-ads {
     width: 1280px;
@@ -84,7 +85,7 @@
     font-size: 16px;
     line-height: 24px;
     text-align: right;
-    color: #b8b8b8;
+    color: var(--color-p-section-3);
   }
   .cd-line-divisor-mobile{
     display: none;

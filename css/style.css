@@ -3,29 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  --bg-body:#060809;
+  --bg-button:#ffffff;
+  --bg-box: #1b1c20;
+  --bg-btn-new:#7f56d9;
+  
+  --color-purple:#712fff;
+  --color-title:#ffffff;
+  --color-p:#e7e7e7;
+  --color-p-section-3:#b8b8b8;
+  --color-btn: #1b1c20;
+  --color-btn-new:#f9f5ff;
+}
 body, header  {
-  background-color: #060809;
+  background-color: var(--bg-body);
 }
-
-
-/* CLASSES UTILITARIAS */
-
-.cd-text-purple {
-  color: #712fff;
+span{
+  color: var(--color-purple);
 }
-.cd-text-white {
-  color: #ffffff;
-}
-.cd-text-light-gray {
-  color: #e7e7e7;
-}
-.cd-text-gray {
-  color: #383a47;
-}
-.cd-bg-light {
-  background-color: #ffffff;
-}
-.cd-bg-dark {
-  background-color: #060809;
-}
-

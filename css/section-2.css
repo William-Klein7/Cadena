@@ -27,10 +27,12 @@
   gap: 32px;
 }
 .cd-box-text-2 h1 {
+  
   font-family:'Satoshi';
   font-weight: 500;
   font-size: 43px;
   line-height: 58px;
+  color:var(--color-title);
 }
 .cd-box-cards {
   width: 1280px;
@@ -71,7 +73,7 @@
   align-items: center;
   padding: 39px 65px 20px;
   gap: 31px;
-  background: #1b1c20;
+  background: var(--bg-box);
   border-radius: 24px;
 }
 .cd-box-small-1 h1 {
@@ -80,7 +82,8 @@
   font-size: 23px;
   line-height: 32px;
   align-items: center;
-  text-align: center;
+  text-align: center;  
+  color:var(--color-title);
 }
 .cd-box-small-1 p {
   width: 276px;
@@ -88,9 +91,10 @@
   font-family: 'Inter';
   font-weight: 400;
   font-size: 15px;
-  line-height: 27px;
+  line-height: 27px;  
   align-items: center;
   text-align: center;
+  color:var(--color-p) ;
 }
 .cd-box-small-2 {
   width: 406px;
@@ -100,7 +104,7 @@
   align-items: center;
   padding: 39px 53px;
   gap: 27px;
-  background: #1b1c20;
+  background: var(--bg-box);
   border-radius: 23px;
 }
 .cd-box-small-2 h1 {
@@ -110,8 +114,10 @@
   line-height: 34px;
   align-items: center;
   text-align: center;
+  color:var(--color-title);
 }
 .cd-box-small-2 p {
+
   width: 299px;
   height: 81px;
   font-family: 'Inter';
@@ -119,7 +125,8 @@
   font-size: 17px;
   line-height: 27px;
   align-items: center;
-  text-align: center;
+  text-align: center;  
+  color:var(--color-p) ;
 }
 .cd-box-small {
   width: 408px;
@@ -129,24 +136,28 @@
   align-items: center;
   padding: 39px 87px;
   gap: 19px;
-  background: #1b1c20;
+  background: var(--bg-box);
   border-radius: 23px;
 }
 .cd-box-small h1 {
+
   font-family:'Satoshi';
   font-weight: 400;
   font-size: 23px;
   line-height: 32px;
   align-items: center;
-  text-align: center;
+  text-align: center;  
+  color:var(--color-title);
 }
 .cd-box-small p {
+
   font-family: 'Inter';
   font-weight: 400;
   font-size: 15px;
   line-height: 27px;
   align-items: center;
-  text-align: center;
+  text-align: center;  
+  color:var(--color-p) ;
 }
 .cd-box-large {
   width: 408px;
@@ -156,7 +167,7 @@
   align-items: center;
   padding: 39px 65px;
   gap: 85px;
-  background: #1b1c20;
+  background: var(--bg-box);
   border-radius: 23px;
 }
 .cd-box-large-text {
@@ -169,19 +180,23 @@
   gap: 21px;
 }
 .cd-box-large-text h1 {
+  
   font-family: 'Satoshi';
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
   align-items: center;
   text-align: center;
+  color:var(--color-title);
 }
 .cd-box-large-text p {
+
   font-family: 'Inter';
   font-weight: 400;
   font-size: 15px;
   line-height: 27px;
   align-items: center;
-  text-align: center;
+  text-align: center;  
+  color:var(--color-p);
 }
 }
