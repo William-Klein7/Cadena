@@ -1,0 +1,47 @@
+@media screen and (min-width: 1440px) {
+  /* SECTION 03 */
+
+  .cd-section-3 {
+    width: 1440px;
+    height: 862px;
+    padding: 96px 80px;
+    gap: 64px;
+  }
+  .cd-container-section-3 {
+    width: 1280px;
+    height: 670px;
+    display: block;
+    background: var(--bg-box-section-3) url("../imagens/cartões-section-3.png")
+      center center no-repeat;
+  }
+  .cd-box-btn-text {
+    width: 478px;
+    height: 438px;
+    padding: 0px;
+    gap: 122px;
+    margin: 128px 770px 124px 31px;
+  }
+  .cd-btn-section-3 {
+    width: 163px;
+    height: 56px;
+  }
+  .cd-box-text-3 {
+    width: 478px;
+    height: 260px;
+    align-items: flex-start;
+  }
+  .cd-box-text-3 h1 {
+    width: 432px;
+    height: 116px;
+    font-size: 43px;
+    line-height: 58px;
+  }
+  .cd-box-text-3 p {
+    width: 478px;
+    height: 120px;
+    font-size: 19px;
+  }
+  .cd-container-section-3-mobile {
+    display: none;
+  }
+}
