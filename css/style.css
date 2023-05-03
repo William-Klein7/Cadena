@@ -3,18 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --bg-body: #060809;
   --bg-button: #ffffff;
   --bg-box: #1b1c20;
-  --bg-section-1:#060809;
-  --bg-box-section-3:#1B1C20;
+  --bg-section-1: #060809;
+  --bg-box-section-3: #1B1C20;
   --bg-btn-new: #7f56d9;
   --bg-btn-section-1: #f9f5ff;
-  --bg-footer-mobile:#0B0C0D;
-  --logo-fill:white;
-  --social-icons-fill:#b8b8b8;
-  --social-icons-fill-mobile:#ffffff;
+  --bg-footer-mobile: #0B0C0D;
+  --logo-fill: white;
+  --social-icons-fill: #b8b8b8;
+  --social-icons-fill-mobile: #ffffff;
 
 
   --color-purple: #712fff;
@@ -24,9 +25,9 @@
   --color-p-section-3: #b8b8b8;
   --color-btn: #1b1c20;
   --color-btn-new: #f9f5ff;
-  --color-footer-1:#e7e7e7;
-  --color-footer-2:#b8b8b8;
-  --color-footer-mobile:#ffffff;
+  --color-footer-1: #e7e7e7;
+  --color-footer-2: #b8b8b8;
+  --color-footer-mobile: #ffffff;
 
   --box-shadow:
     0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01),
@@ -43,14 +44,14 @@
   --bg-body: #060809;
   --bg-button: #ffffff;
   --bg-box: #1b1c20;
-  --bg-section-1:#060809;
-  --bg-box-section-3:#1B1C20;
+  --bg-section-1: #060809;
+  --bg-box-section-3: #1B1C20;
   --bg-btn-new: #7f56d9;
   --bg-btn-section-1: #f9f5ff;
-  --logo-fill:white;
-  --bg-footer-mobile:#0B0C0D;
-  --social-icons-fill:#b8b8b8;
-  --social-icons-fill-mobile:#ffffff;
+  --logo-fill: white;
+  --bg-footer-mobile: #0B0C0D;
+  --social-icons-fill: #b8b8b8;
+  --social-icons-fill-mobile: #ffffff;
 
   --color-purple: #712fff;
   --color-title: #ffffff;
@@ -59,22 +60,22 @@
   --color-p-section-3: #b8b8b8;
   --color-btn: #1b1c20;
   --color-btn-new: #f9f5ff;
-  --color-footer-1:#e7e7e7;
-  --color-footer-2:#b8b8b8;
-  --color-footer-mobile:#ffffff;
+  --color-footer-1: #e7e7e7;
+  --color-footer-2: #b8b8b8;
+  --color-footer-mobile: #ffffff;
 }
 
-.light-mode:root{
+.light-mode:root {
   --bg-body: #ffffff;
   --bg-button: #0F0F14;
   --bg-box: #ffffff;
-  --bg-section-1:#faf8f5;
-  --bg-box-section-3:#faf8f5;
+  --bg-section-1: #faf8f5;
+  --bg-box-section-3: #faf8f5;
   --bg-btn-new: #ffffff;
-  --logo-fill:black;
-  --bg-footer-mobile:#ffffff;
-  --social-icons-fill:#383a47;
-  --social-icons-fill-mobile:#383a47;
+  --logo-fill: black;
+  --bg-footer-mobile: #ffffff;
+  --social-icons-fill: #383a47;
+  --social-icons-fill-mobile: #383a47;
 
   --color-title: #1b1c20;
   --color-p: #383a47;
@@ -82,20 +83,23 @@
   --color-p-section-3: #797b89;
   --color-btn: #ffffff;
   --color-btn-new: #6941c6;
-  --color-footer-1:#797B89;
-  --color-footer-2:#797B89;
-  --color-footer-mobile:#797B89;
+  --color-footer-1: #797B89;
+  --color-footer-2: #797B89;
+  --color-footer-mobile: #797B89;
 }
+
 body,
 header {
   background-color: var(--bg-body);
 }
+
 span {
   color: var(--color-purple);
 }
 
 
 @media screen and (min-width: 375px) {
+
   /* HEADER */
 
   .cd-header {
@@ -104,11 +108,13 @@ span {
     position: fixed;
     background-color: var(--bg-section-1);
   }
+
   .cd-container-header {
     width: 335px;
     height: 30px;
     margin: 14px 20px 0;
   }
+
   .cd-box-header {
     width: auto;
     height: 30px;
@@ -116,19 +122,22 @@ span {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    }
-  .cd-btn-togle-mode{
+  }
+
+  .cd-btn-togle-mode {
     width: auto;
     height: auto;
     display: flex;
     align-items: center;
     gap: 12px;
-    border:none;
+    border: none;
   }
-  .cd-togle-dark-mode, .cd-togle-light-mode{
+
+  .cd-togle-dark-mode,
+  .cd-togle-light-mode {
     width: 35px;
     height: 35px;
-    border:none;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,29 +147,37 @@ span {
     cursor: pointer;
     order: 2;
   }
-  .cd-lua, .cd-sol{
+
+  .cd-lua,
+  .cd-sol {
     width: 25px;
     height: 25px;
     display: block;
   }
+
   .cd-logo {
     width: 125px;
     height: 30px;
   }
-  .cd-logo-fill{
+
+  .cd-logo-fill {
     fill: var(--logo-fill);
   }
+
   .cd-menu {
     width: 23px;
     height: 26px;
     order: 3;
   }
+
   .cd-menu a {
     display: none;
   }
+
   .cd-menu-login {
     display: none;
   }
+
   /* SECTION 01 */
 
   .cd-section-1 {
@@ -172,6 +189,7 @@ span {
     padding: 108px 20px 0;
     background-color: var(--bg-section-1);
   }
+
   .cd-container-section-1 {
     width: 335px;
     height: auto;
@@ -181,6 +199,7 @@ span {
     gap: 70px;
     border: none;
   }
+
   .cd-box-text {
     width: 335px;
     height: 335px;
@@ -190,6 +209,7 @@ span {
     padding: 0px;
     gap: 32px;
   }
+
   .cd-title-btn {
     width: 335px;
     height: 177px;
@@ -199,6 +219,7 @@ span {
     padding: 0px;
     gap: 16px;
   }
+
   .cd-btn-section-1 {
     width: 257px;
     height: 32px;
@@ -212,18 +233,21 @@ span {
     cursor: pointer;
     border: none;
   }
+
   .cd-btn-section-1 a {
-    font-family: "Satoshi",sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     text-decoration: none;
     color: #7f56d9;
   }
+
   .cd-arrow-right {
     width: 9px;
     height: 9px;
   }
+
   .cd-btn-new {
     width: 53px;
     height: 24px;
@@ -237,7 +261,8 @@ span {
     border-radius: 16px;
     border: none;
   }
-  .cd-btn-new a{
+
+  .cd-btn-new a {
     background-color: var(--bg-btn-section-1);
   }
 
@@ -252,12 +277,13 @@ span {
   .cd-title-btn h1 {
     width: 335px;
     height: 129px;
-    font-family: "Satoshi",sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 43px;
     color: var(--color-title);
   }
+
   .cd-title-description {
     width: 335px;
     height: 253px;
@@ -267,15 +293,17 @@ span {
     padding: 0px;
     gap: 16px;
   }
+
   .cd-title-description p {
     width: 335px;
     height: 60px;
-    font-family: "Satoshi",sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     color: var(--color-p);
   }
+
   .cd-btns-store {
     width: 304px;
     height: 50px;
@@ -285,6 +313,7 @@ span {
     padding: 0;
     gap: 15px;
   }
+
   .cd-btns-store button {
     width: 142px;
     height: 50px;
@@ -294,14 +323,17 @@ span {
     background-color: #ffffff;
     border: 0.5px solid #1B1C20;
   }
+
   .cd-btns-store-aple img {
     width: 117px;
     height: 24px;
   }
+
   .cd-btns-store-play img {
     width: 105px;
     height: 24px;
   }
+
   /* SECTION 02 */
 
   .cd-section-2 {
@@ -313,6 +345,7 @@ span {
     padding: 50px 20px 64px;
     margin: 0;
   }
+
   .cd-container-section-2 {
     width: 335px;
     height: auto;
@@ -322,16 +355,18 @@ span {
     padding: 0px;
     gap: 52px;
   }
+
   .cd-box-text-2 {
     width: 335px;
     height: 32px;
     display: flex;
     align-items: center;
   }
+
   .cd-box-text-2 h1 {
     width: 335px;
     height: 32px;
-    font-family: "Satoshi",sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
@@ -340,6 +375,7 @@ span {
     color: var(--color-title);
     letter-spacing: -1.824px;
   }
+
   .cd-box-cards {
     width: 335px;
     height: auto;
@@ -349,6 +385,7 @@ span {
     padding: 0px;
     gap: 27px;
   }
+
   .cd-box-cards-small {
     width: 335px;
     height: auto;
@@ -358,6 +395,7 @@ span {
     padding: 0px;
     gap: 27px;
   }
+
   .cd-box-cards-small-up,
   .cd-box-cards-small-down {
     width: 335;
@@ -368,6 +406,7 @@ span {
     padding: 0px;
     gap: 27px;
   }
+
   .cd-box-small-1 {
     width: 335px;
     height: 316px;
@@ -380,8 +419,9 @@ span {
     box-shadow: var(--box-shadow);
     border-radius: 24px;
   }
+
   .cd-box-small-1 h1 {
-    font-family: "Satoshi",sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-weight: 400;
     font-size: 23px;
     line-height: 32px;
@@ -389,10 +429,11 @@ span {
     text-align: center;
     color: var(--color-title);
   }
+
   .cd-box-small-1 p {
     width: 276px;
     height: 81px;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 27px;
@@ -400,6 +441,7 @@ span {
     text-align: center;
     color: var(--color-p-section-2);
   }
+
   .cd-box-small-2 {
     width: 335px;
     height: 315px;
@@ -412,8 +454,9 @@ span {
     box-shadow: var(--box-shadow);
     border-radius: 23px;
   }
+
   .cd-box-small-2 h1 {
-    font-family: "Satoshi",sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
@@ -421,10 +464,11 @@ span {
     text-align: center;
     color: var(--color-title);
   }
+
   .cd-box-small-2 p {
     width: 299px;
     height: 81px;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 17px;
     line-height: 27px;
@@ -432,6 +476,7 @@ span {
     text-align: center;
     color: var(--color-p-section-2);
   }
+
   .cd-box-small {
     width: 335px;
     height: 316px;
@@ -444,10 +489,11 @@ span {
     box-shadow: var(--box-shadow);
     border-radius: 23px;
   }
+
   .cd-box-small h1 {
     width: 193px;
     height: 32px;
-    font-family: "Satoshi",sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -456,10 +502,11 @@ span {
     text-align: center;
     color: var(--color-title);
   }
+
   .cd-box-small p {
     width: 267px;
     height: 81px;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -468,6 +515,7 @@ span {
     text-align: center;
     color: var(--color-p-section-2);
   }
+
   .cd-box-large {
     width: 335px;
     height: 574px;
@@ -480,6 +528,7 @@ span {
     box-shadow: var(--box-shadow);
     border-radius: 23px;
   }
+
   .cd-box-large-text {
     width: 276px;
     height: 109px;
@@ -489,8 +538,9 @@ span {
     padding: 0px;
     gap: 21px;
   }
+
   .cd-box-large-text h1 {
-    font-family: "Satoshi",sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
@@ -498,38 +548,41 @@ span {
     text-align: center;
     color: var(--color-title);
   }
+
   .cd-box-large-text p {
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 27px;
-    align-items: center; 
-    text-align: center; 
-    color: var(--color-p-section-2); 
-  } 
- 
-  /* SECTION 03 */ 
- 
-  .cd-section-3 { 
-    width: 375px; 
-    height: auto; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    padding: 0 20px 64px; 
-  } 
-  .cd-container-section-3 { 
-    width: 335px; 
-    height: auto; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
+    align-items: center;
+    text-align: center;
+    color: var(--color-p-section-2);
+  }
+
+  /* SECTION 03 */
+
+  .cd-section-3 {
+    width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 64px;
+  }
+
+  .cd-container-section-3 {
+    width: 335px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0;
     gap: 65px;
     background-color: var(--bg-box-section-3);
     border-radius: 25px;
-    box-shadow:var(--box-shadow);
+    box-shadow: var(--box-shadow);
   }
+
   .cd-box-btn-text {
     width: 295px;
     height: auto;
@@ -540,6 +593,7 @@ span {
     padding: 50px 20px 0;
     gap: 32px;
   }
+
   .cd-btn-section-3 {
     width: 150px;
     height: 50px;
@@ -553,11 +607,13 @@ span {
     border: none;
     color: var(--color-btn);
   }
-  .cd-arrow-fill-section-3{
+
+  .cd-arrow-fill-section-3 {
     fill: var(--bg-box);
   }
+
   .cd-box-btn-text a {
-    font-family: "Satoshi",sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -568,6 +624,7 @@ span {
     text-align: center;
     letter-spacing: -0.4px;
   }
+
   .cd-box-text-3 {
     width: 295px;
     height: auto;
@@ -577,24 +634,27 @@ span {
     padding: 0px;
     gap: 24px;
   }
+
   .cd-box-text-3 h1 {
-    font-family: "Satoshi",sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     align-items: center;
     color: var(--color-title);
   }
+
   .cd-box-text-3 p {
     width: 295px;
     height: 180px;
-    font-family: "Satoshi",sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     align-items: center;
     color: var(--color-p-section-3);
   }
+
   /* FOOTERS */
   /* PRIMEIRO FOOTER: */
   .cd-footer-1 {
@@ -608,6 +668,7 @@ span {
     background-color: var(--bg-section-1);
 
   }
+
   .cd-footer-container {
     width: 335px;
     height: 112px;
@@ -618,8 +679,9 @@ span {
     padding: 0;
     gap: 24px;
   }
+
   .cd-footer-container p {
-    font-family: "Satoshi",sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 27px;
@@ -627,6 +689,7 @@ span {
     align-items: center;
     color: var(--color-footer-mobile);
   }
+
   .cd-footer-ads {
     width: 335px;
     height: auto;
@@ -638,31 +701,37 @@ span {
     padding: 0px;
     gap: 24px;
   }
+
   .cd-footer-ads-stripe {
     width: 42px;
     height: 17px;
     order: 1;
   }
+
   .cd-footer-ads-orfium {
     width: 90px;
     height: 17px;
     order: 2;
   }
+
   .cd-footer-ads-kinsta {
     width: 88px;
     height: 17px;
     order: 3;
   }
+
   .cd-footer-ads-bankable {
     width: 103px;
     height: 17px;
     order: 5;
   }
+
   .cd-footer-ads-nowports {
     width: 78px;
     height: 19px;
     order: 4;
   }
+
   /* SEGUNDO FOOTER: */
 
   .cd-footer-2 {
@@ -674,15 +743,16 @@ span {
     padding: 40px 20px;
     background-color: var(--bg-footer-mobile);
   }
+
   .cd-footer-container-2 {
     width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 32px;
     gap: 32px;
   }
+
   .cd-box-footer-2 {
     width: 335px;
     height: auto;
@@ -692,6 +762,7 @@ span {
     align-items: center;
     padding: 0px;
   }
+
   .cd-footer-social-icons {
     width: 320px;
     height: 24px;
@@ -703,11 +774,13 @@ span {
     padding: 32px 0 24px;
     order: 2;
   }
-  .cd-social-icons-fill{
+
+  .cd-social-icons-fill {
     fill: var(--social-icons-fill-mobile);
   }
+
   .cd-box-footer-2 p {
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -715,11 +788,13 @@ span {
     color: var(--color-footer-mobile);
     order: 3;
   }
+
   .cd-logo-footer-2 {
     width: 133px;
     height: 32px;
     margin-bottom: 48px;
   }
+
   .cd-line-divisor-mobile {
     width: 335px;
     height: 1px;
