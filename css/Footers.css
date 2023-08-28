@@ -1,16 +1,16 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1000px) {
   /* FOOTERS */
 
   /* PRIMEIRO FOOTER: */
 
   .cd-footer-1 {
-    width: 1440px;
+    width: 100%;
     height: 183px;
     padding: 50px 80px;
   }
 
   .cd-footer-container {
-    width: 1280px;
+    width: 100%;
     height: 84px;
   }
 
@@ -21,10 +21,11 @@
   }
 
   .cd-footer-ads {
-    width: 1280px;
+    width: 100%;
     height: 31px;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 142px;
   }
 
   .cd-footer-ads-stripe {
@@ -60,7 +61,7 @@
   /* SEGUNDO FOOTER: */
 
   .cd-footer-2 {
-    width: 1440px;
+    width: 100%;
     height: 128px;
     padding: 48px 80px;
     gap: 64px;
@@ -68,7 +69,7 @@
   }
 
   .cd-footer-container-2 {
-    width: 1280px;
+    width: 100%;
     height: 32px;
     padding: 0px 32px;
     flex-direction: row;
@@ -76,7 +77,7 @@
   }
 
   .cd-box-footer-2 {
-    width: 1216px;
+    width: 100%;
     height: 32px;
     flex-direction: row;
     justify-content: space-between;

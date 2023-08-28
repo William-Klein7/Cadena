@@ -1,34 +1,37 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1000px) {
   /* SECTION 01 */
 
   .cd-section-1 {
-    width: 1440px;
-    height: 847px;
-    flex-direction: row;
+    width: 100%;
     justify-content: center;
     padding: 144px 0px 96px;
-    gap: 64px;
   }
+
   .cd-container-section-1 {
-    width: 1280px;
+    width: 100%;
     height: auto;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
+    justify-content: space-between;
     padding: 64px 32px;
     gap: 32px;
   }
+
   .cd-box-text {
     width: 579px;
     height: 402px;
     margin: 102px 0;
   }
+
   .cd-title-btn {
     width: 579px;
     height: 225px;
   }
+
   .cd-box-images {
-    width: 604.75px;
-    height: 607.5px;
+    width: 100%;
+    max-width: 604.75px;
+    height: auto;
   }
 
   .cd-title-btn h1 {
@@ -38,29 +41,35 @@
     font-size: 44px;
     line-height: 59px;
   }
+
   .cd-title-description {
     width: 579px;
     height: 309px;
     gap: 24px;
   }
+
   .cd-title-description p {
     width: 480px;
     height: 60px;
     font-size: 20px;
   }
+
   .cd-btns-store {
     width: 372px;
     height: 61px;
   }
+
   .cd-btns-store button {
     width: 178px;
     height: 61px;
     border-radius: 12px;
   }
+
   .cd-btns-store-aple img {
     width: 133px;
     height: 31px;
   }
+
   .cd-btns-store-play img {
     width: 148px;
     height: 30px;

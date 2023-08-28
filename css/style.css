@@ -103,16 +103,16 @@ span {
   /* HEADER */
 
   .cd-header {
-    width: 375px;
+    width: 100%;
     height: 58px;
     position: fixed;
     background-color: var(--bg-section-1);
+    padding: 14px 20px;
   }
 
   .cd-container-header {
-    width: 335px;
+    width: 100%;
     height: 30px;
-    margin: 14px 20px 0;
   }
 
   .cd-box-header {
@@ -181,7 +181,7 @@ span {
   /* SECTION 01 */
 
   .cd-section-1 {
-    width: 375px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -191,7 +191,7 @@ span {
   }
 
   .cd-container-section-1 {
-    width: 335px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -337,7 +337,7 @@ span {
   /* SECTION 02 */
 
   .cd-section-2 {
-    width: 375px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -347,7 +347,7 @@ span {
   }
 
   .cd-container-section-2 {
-    width: 335px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -398,7 +398,7 @@ span {
 
   .cd-box-cards-small-up,
   .cd-box-cards-small-down {
-    width: 335;
+    width: 335px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -562,7 +562,7 @@ span {
   /* SECTION 03 */
 
   .cd-section-3 {
-    width: 375px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -571,11 +571,11 @@ span {
   }
 
   .cd-container-section-3 {
-    width: 335px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
     padding: 0;
     gap: 65px;
     background-color: var(--bg-box-section-3);
@@ -583,13 +583,17 @@ span {
     box-shadow: var(--box-shadow);
   }
 
+  .cd-container-section-3 img {
+    width: 100%;
+    height: auto;
+  }
+
   .cd-box-btn-text {
-    width: 295px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    align-self: stretch;
+    align-items: center;
     padding: 50px 20px 0;
     gap: 32px;
   }
@@ -616,7 +620,7 @@ span {
     font-family: "Satoshi", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 24px;
     text-decoration: none;
     cursor: pointer;
@@ -658,7 +662,7 @@ span {
   /* FOOTERS */
   /* PRIMEIRO FOOTER: */
   .cd-footer-1 {
-    width: 375px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -670,7 +674,7 @@ span {
   }
 
   .cd-footer-container {
-    width: 335px;
+    width: 100%;
     height: 112px;
     display: flex;
     flex-direction: column;
@@ -735,7 +739,7 @@ span {
   /* SEGUNDO FOOTER: */
 
   .cd-footer-2 {
-    width: 375px;
+    width: 100%;
     height: 289px;
     display: flex;
     flex-direction: column;
@@ -754,7 +758,7 @@ span {
   }
 
   .cd-box-footer-2 {
-    width: 335px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
