@@ -1,14 +1,15 @@
-# MyProject-Cadena
-Desenvolvimento do primeiro projeto do PB-Front-end Desenvolvimento (React).
-Este projeto é um pequeno  Site criado por mim, seguindo o layout fornecido pela empres Compass UOL.
+<h1 align="center">Cadena</h1>
+<img src="imagens/image.png"/>
 
+## 📔 Sobre
+O Cadena é um website distinto que tem como objetivo primordial proporcionar a disponibilidade de cartões digitais personalizados, repleto de atributos vantajosos que abrangem uma variedade de utilidades. Estes benefícios incluem, mas não se limitam a:
 
-Cadena é um Website, que tem como principal objetivo  fornecer cartões digitais personalizados, e alem, com varios outros beneficios, como por exemplo:
+- Versatilidade notável, permitindo a adaptação do cartão a diversas finalidades.
 
--Uso versatil;
+- Universalidade de aceitação, conferindo-lhe a capacidade de ser utilizado em estabelecimentos variados.
 
--Aceito em todos os lugares;
+- Gerenciamento simplificado, proporcionando aos usuários a habilidade de administrar seus cartões com facilidade e eficiência.
 
--Facíl gerenciamento;
+- Suporte dedicado ao cliente, assegurando que as necessidades e indagações dos usuários sejam prontamente atendidas.
 
--Suporte ao cliente;
+O Cadena se destaca como um serviço que oferece cartões digitais personalizados, enriquecendo tal oferta com atributos como a adaptabilidade versátil, ampla aceitação, gerenciamento descomplicado e assistência ao cliente de qualidade.
