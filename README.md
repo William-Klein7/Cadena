@@ -1,5 +1,7 @@
 <h1 align="center">Cadena</h1>
-<img src="imagens/image.png" align="center"/>
+<div align="center">
+<img src="imagens/image.png"/>
+</div>
 
 ## 📔 Sobre
 O Cadena é um website distinto que tem como objetivo primordial proporcionar a disponibilidade de cartões digitais personalizados, repleto de atributos vantajosos que abrangem uma variedade de utilidades. Estes benefícios incluem, mas não se limitam a:
