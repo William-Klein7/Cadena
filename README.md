@@ -25,7 +25,7 @@ O Cadena se destaca como um serviço que oferece cartões digitais personalizado
 
 Se você deseja executar este projeto localmente, siga as etapas abaixo:
 
-- **Faça o dowload do projeto clicando no botão "Code" no GitHub e logo após em "Dowload ZIP".Depois basta extrair os arquivos da pasta compactada e abrir o arquivo `indedx.html`.**
+- **Faça o dowload do projeto clicando no botão "Code" no GitHub e logo após em "Dowload ZIP".Depois basta extrair os arquivos da pasta compactada e abrir o arquivo `index.html`.**
      <p align="center"><strong>ou</strong></p>
 
 1. **Clone o repositório:**
