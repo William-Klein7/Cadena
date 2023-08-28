@@ -1,31 +1,35 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1000px) {
   /* HEADER */
 
   .cd-header {
-    width: 1440px;
+    width: 100%;
     height: 80px;
+    display: block;
     position: fixed;
+    padding: 18px 80px;
+
   }
+
   .cd-container-header {
-    width: 1280px;
+    width: 100%;
     height: 44px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 32px;
-    margin: 18px 80px;
+    margin: 0;
   }
 
   .cd-box-header {
-    width: 530px;
     height: 50px;
     gap: 40px;
   }
+
   .cd-logo {
     width: 133px;
     height: 32px;
   }
+
   .cd-menu {
     width: 205px;
     height: 24px;
@@ -35,6 +39,7 @@
     gap: 32px;
     margin: 4px 0;
   }
+
   .cd-menu a {
     font-family: "Satoshi", sans-serif;
     display: block;
@@ -43,10 +48,32 @@
     line-height: 24px;
     text-decoration: none;
     color: var(--color-title);
+    position: relative;
   }
+
+  .cd-menu a:hover {
+    color: #7f56d9;
+  }
+
+  .cd-menu a::after {
+    content: "";
+    position: absolute;
+    background-color: #7f56d9;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -6px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cd-menu a:hover::after {
+    width: 100%;
+  }
+
   .cd-menu svg {
     display: none;
   }
+
   .cd-menu-login {
     width: 187px;
     height: 44px;
@@ -56,10 +83,12 @@
     gap: 12px;
     margin: 0;
   }
+
   .cd-btn-primary {
     width: 82px;
     height: 44px;
     border: none;
+    border-radius: 8px;
     cursor: pointer;
     font-family: "Satoshi", sans-serif;
     font-weight: 700;
@@ -67,7 +96,11 @@
     line-height: 24px;
     background-color: var(--bg-section-1);
     color: var(--color-title);
+    transition: 0.5s;
   }
+
+
+
   .cd-btn-secundary {
     width: 93px;
     height: 44px;
@@ -82,5 +115,13 @@
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     background-color: var(--bg-button);
     color: var(--color-btn);
+    transition: 0.5s;
+  }
+
+  .cd-btn-primary:hover,
+  .cd-btn-secundary:hover,
+  .cd-togle-dark-mode:hover,
+  .cd-togle-light-mode:hover {
+    opacity: 0.8;
   }
 }
