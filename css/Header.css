@@ -21,7 +21,6 @@
   }
 
   .cd-box-header {
-    width: 530px;
     height: 50px;
     gap: 40px;
   }
@@ -49,6 +48,26 @@
     line-height: 24px;
     text-decoration: none;
     color: var(--color-title);
+    position: relative;
+  }
+
+  .cd-menu a:hover {
+    color: #7f56d9;
+  }
+
+  .cd-menu a::after {
+    content: "";
+    position: absolute;
+    background-color: #7f56d9;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -6px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cd-menu a:hover::after {
+    width: 100%;
   }
 
   .cd-menu svg {
@@ -69,6 +88,7 @@
     width: 82px;
     height: 44px;
     border: none;
+    border-radius: 8px;
     cursor: pointer;
     font-family: "Satoshi", sans-serif;
     font-weight: 700;
@@ -76,7 +96,10 @@
     line-height: 24px;
     background-color: var(--bg-section-1);
     color: var(--color-title);
+    transition: 0.5s;
   }
+
+
 
   .cd-btn-secundary {
     width: 93px;
@@ -92,5 +115,13 @@
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     background-color: var(--bg-button);
     color: var(--color-btn);
+    transition: 0.5s;
+  }
+
+  .cd-btn-primary:hover,
+  .cd-btn-secundary:hover,
+  .cd-togle-dark-mode:hover,
+  .cd-togle-light-mode:hover {
+    opacity: 0.8;
   }
 }
